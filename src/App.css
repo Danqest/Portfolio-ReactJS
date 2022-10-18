@@ -45,3 +45,11 @@
   opacity: 0;
   transition: opacity 1s ease;
 }
+
+.section-1 {
+  /* background-color: black; */
+  color: white;
+  height: 100%;
+  border: "white";
+  border-style: "rounded";
+}
