@@ -16,14 +16,14 @@ const Intro = () => {
           if (fadeProp.fade === "fade-in") {
             setFadeProp({
               fade: "fade-out",
-              text: "Welcome To My Portfolio",
+              text: "Welcome to my Portfolio",
               nextFlag: false,
               done: true,
             });
           } else {
             setFadeProp({
               fade: "fade-in",
-              text: "Welcome To My Portfolio",
+              text: "Welcome to my Portfolio",
               nextFlag: true,
               done: false,
             });
@@ -47,14 +47,14 @@ const Intro = () => {
         }
       } else {
         setFadeProp({
-          fade: "fade-out",
-          text: "Welcome To My Portfolio",
-          nextFlag: false,
-          done: true,
           transition: true,
+          fade: "fade-in",
+          text: "I'm Colin Brooks, a full-stack web developer.",
+          text2: "Scroll down to view my work!",
+          done: true,
         });
       }
-    }, 2250);
+    }, 1500);
 
     return () => clearInterval(timeout);
   }, [fadeProp]);
@@ -62,7 +62,15 @@ const Intro = () => {
   return (
     <div>
       <h1 className={fadeProp.fade}>{fadeProp.text}</h1>
-      {/* {fadeProp.transition ? <Navigate to="/main" /> : fadeProp.transition} */}
+      <h2 className={fadeProp.fade}>{fadeProp.text2}</h2>
+      {/* {fadeProp.transition ? (
+        <div>
+          <h1>I'm Colin Brooks, a full-stack web developer.</h1>
+          <h2>Scroll down to view my work!</h2>
+        </div>
+      ) : (
+        fadeProp.transition
+      )} */}
     </div>
   );
 };
