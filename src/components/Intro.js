@@ -50,7 +50,7 @@ const Intro = () => {
           transition: true,
           fade: "fade-in",
           text: "I'm Colin Brooks, a full-stack web developer.",
-          text2: "Scroll down to view my work!",
+          text2: "Use the links above to view my work!",
           done: true,
         });
       }
@@ -59,18 +59,16 @@ const Intro = () => {
     return () => clearInterval(timeout);
   }, [fadeProp]);
 
+  const introStyle = {
+    width: "100%",
+    height: "75vh",
+    marginTop: "20vh",
+  };
+
   return (
-    <div>
+    <div style={introStyle}>
       <h1 className={fadeProp.fade}>{fadeProp.text}</h1>
       <h2 className={fadeProp.fade}>{fadeProp.text2}</h2>
-      {/* {fadeProp.transition ? (
-        <div>
-          <h1>I'm Colin Brooks, a full-stack web developer.</h1>
-          <h2>Scroll down to view my work!</h2>
-        </div>
-      ) : (
-        fadeProp.transition
-      )} */}
     </div>
   );
 };

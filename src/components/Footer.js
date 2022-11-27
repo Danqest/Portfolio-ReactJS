@@ -2,10 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer
-      className="text-center"
-      style={{ position: "relative", "margin-top": "180px" }}
-    >
+    <footer className="text-center" style={{ position: "relative" }}>
       <div className="container">
         <div className="row">
           <div className="col">
