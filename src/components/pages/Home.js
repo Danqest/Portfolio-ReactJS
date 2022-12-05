@@ -12,13 +12,118 @@ export class Home extends Component {
     return (
       <div>
         <div style={c1Style}>
-          <h1 id="home">HOME</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-            non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-            reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-            Voluptatum ducimus voluptates voluptas?
-          </p>
+          <h1>FEATURED PROJECTS</h1>
+          <div className="wrap-desktop">
+            <div className="wrap-desktop-item">
+              <a
+                href="https://github.com/Danqest/Reinforcement-Learning-Lunar-Lander"
+                target="_blank"
+              >
+                <img className="homeImg-desktop" src="v-lunarlander.png" />
+                <div className="capBig">Lunar Lander</div>
+                <div className="capSmall">
+                  Python, OpenAI Gym, Reinforcement Learning with
+                  Stable-Baselines3, Tensorboard
+                </div>
+              </a>
+            </div>
+            <div className="wrap-desktop-item">
+              <a
+                href="https://github.com/Danqest/18-NoSQL-Social-Network-API"
+                target="_blank"
+              >
+                <img className="homeImg-desktop" src="v-nosql.png" />
+                <div className="capBig">Social Network API</div>
+                <div className="capSmall">
+                  NoSQL, GET/POST/PUT/DELETE Routes, Mongoose, Insomnia,
+                  Javascript
+                </div>
+              </a>
+            </div>
+            <div className="wrap-desktop-item">
+              <a
+                href="https://github.com/Danqest/12-SQL-Employee-Tracker"
+                target="_blank"
+              >
+                <img className="homeImg-desktop" src="v-mysql.png" />
+                <div className="capBig">Employee Tracker</div>
+                <div className="capSmall">
+                  MySQL, Node.js, Inquirer, Javascript
+                </div>
+              </a>
+            </div>
+            <div className="wrap-desktop-item">
+              <a
+                href="https://github.com/Danqest/06-Server-Side-APIs-Weather-Dashboard"
+                target="_blank"
+              >
+                <img className="homeImg-desktop" src="v-weatherdash.png" />
+                <div className="capBig">Weather Dashboard</div>
+                <div className="capSmall">
+                  Server-Side APIs, Javascript, HTML, CSS
+                </div>
+              </a>
+            </div>
+
+            {/* <img className="homeImg-desktop" src="v-nosql.png" />
+            <img className="homeImg-desktop" src="v-mysql.png" />
+            <img className="homeImg-desktop" src="v-weatherdash.png" />
+            <div className="capBig">Lunar Lander</div>
+            <div className="capSmall">
+              Python, OpenAI Gym, Reinforcement Learning via Stable-Baselines3,
+              Tensorboard
+            </div> */}
+          </div>
+          <div className="wrap-mobile">
+            <a
+              href="https://github.com/Danqest/Reinforcement-Learning-Lunar-Lander"
+              target="_blank"
+            >
+              <img className="homeImg-mobile" src="h-lunarlander.png" />
+              <div className="capBig">Lunar Lander</div>
+              <div className="capSmall">
+                Python, OpenAI Gym, Reinforcement Learning with
+                Stable-Baselines3, Tensorboard
+              </div>
+            </a>
+          </div>
+          <div className="wrap-mobile">
+            <a
+              href="https://github.com/Danqest/18-NoSQL-Social-Network-API"
+              target="_blank"
+            >
+              <img className="homeImg-mobile" src="h-nosql.png" />
+              <div className="capBig">Social Network API</div>
+              <div className="capSmall">
+                NoSQL, GET/POST/PUT/DELETE Routes, Mongoose, Insomnia,
+                Javascript
+              </div>
+            </a>
+          </div>
+          <div className="wrap-mobile">
+            <a
+              href="https://github.com/Danqest/12-SQL-Employee-Tracker"
+              target="_blank"
+            >
+              <img className="homeImg-mobile" src="h-mysql.png" />
+              <div className="capBig">Employee Tracker</div>
+              <div className="capSmall">
+                MySQL, Node.js, Inquirer, Javascript
+              </div>
+            </a>
+          </div>
+          <div className="wrap-mobile">
+            <a
+              href="https://github.com/Danqest/06-Server-Side-APIs-Weather-Dashboard"
+              target="_blank"
+            >
+              <img className="homeImg-mobile" src="h-weatherdash.png" />
+              <div className="capBig">Weather Dashboard</div>
+              <div className="capSmall">
+                Server-Side APIs, Javascript, HTML, CSS
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     );
