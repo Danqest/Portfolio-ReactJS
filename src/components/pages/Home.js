@@ -19,8 +19,11 @@ export class Home extends Component {
                 href="https://github.com/Danqest/Reinforcement-Learning-Lunar-Lander"
                 target="_blank"
               >
-                <img className="homeImg-desktop" src="v-lunarlander.png" />
-                <div className="capBig">Lunar Lander</div>
+                <img
+                  className="homeImg-desktop"
+                  src="./assets/images/featured/v-lunarlander.png"
+                />
+                <div className="capBig">Deep Learning: Lunar Lander</div>
                 <div className="capSmall">
                   Python, OpenAI Gym, Reinforcement Learning with
                   Stable-Baselines3, Tensorboard
@@ -32,7 +35,10 @@ export class Home extends Component {
                 href="https://github.com/Danqest/18-NoSQL-Social-Network-API"
                 target="_blank"
               >
-                <img className="homeImg-desktop" src="v-nosql.png" />
+                <img
+                  className="homeImg-desktop"
+                  src="./assets/images/featured/v-nosql.png"
+                />
                 <div className="capBig">Social Network API</div>
                 <div className="capSmall">
                   NoSQL, GET/POST/PUT/DELETE Routes, Mongoose, Insomnia,
@@ -45,10 +51,13 @@ export class Home extends Component {
                 href="https://github.com/Danqest/12-SQL-Employee-Tracker"
                 target="_blank"
               >
-                <img className="homeImg-desktop" src="v-mysql.png" />
+                <img
+                  className="homeImg-desktop"
+                  src="./assets/images/featured/v-mysql.png"
+                />
                 <div className="capBig">Employee Tracker</div>
                 <div className="capSmall">
-                  MySQL, Node.js, Inquirer, Javascript
+                  MySQL, Command Line, Node.js, Inquirer, Javascript
                 </div>
               </a>
             </div>
@@ -57,7 +66,10 @@ export class Home extends Component {
                 href="https://github.com/Danqest/06-Server-Side-APIs-Weather-Dashboard"
                 target="_blank"
               >
-                <img className="homeImg-desktop" src="v-weatherdash.png" />
+                <img
+                  className="homeImg-desktop"
+                  src="./assets/images/featured/v-weatherdash.png"
+                />
                 <div className="capBig">Weather Dashboard</div>
                 <div className="capSmall">
                   Server-Side APIs, Javascript, HTML, CSS
@@ -79,8 +91,11 @@ export class Home extends Component {
               href="https://github.com/Danqest/Reinforcement-Learning-Lunar-Lander"
               target="_blank"
             >
-              <img className="homeImg-mobile" src="h-lunarlander.png" />
-              <div className="capBig">Lunar Lander</div>
+              <img
+                className="homeImg-mobile"
+                src="./assets/images/featured/h-lunarlander.png"
+              />
+              <div className="capBig">Deep Learning: Lunar Lander</div>
               <div className="capSmall">
                 Python, OpenAI Gym, Reinforcement Learning with
                 Stable-Baselines3, Tensorboard
@@ -92,7 +107,10 @@ export class Home extends Component {
               href="https://github.com/Danqest/18-NoSQL-Social-Network-API"
               target="_blank"
             >
-              <img className="homeImg-mobile" src="h-nosql.png" />
+              <img
+                className="homeImg-mobile"
+                src="./assets/images/featured/h-nosql.png"
+              />
               <div className="capBig">Social Network API</div>
               <div className="capSmall">
                 NoSQL, GET/POST/PUT/DELETE Routes, Mongoose, Insomnia,
@@ -105,10 +123,13 @@ export class Home extends Component {
               href="https://github.com/Danqest/12-SQL-Employee-Tracker"
               target="_blank"
             >
-              <img className="homeImg-mobile" src="h-mysql.png" />
+              <img
+                className="homeImg-mobile"
+                src="./assets/images/featured/h-mysql.png"
+              />
               <div className="capBig">Employee Tracker</div>
               <div className="capSmall">
-                MySQL, Node.js, Inquirer, Javascript
+                MySQL, Command Line, Node.js, Inquirer, Javascript
               </div>
             </a>
           </div>
@@ -117,7 +138,10 @@ export class Home extends Component {
               href="https://github.com/Danqest/06-Server-Side-APIs-Weather-Dashboard"
               target="_blank"
             >
-              <img className="homeImg-mobile" src="h-weatherdash.png" />
+              <img
+                className="homeImg-mobile"
+                src="./assets/images/featured/h-weatherdash.png"
+              />
               <div className="capBig">Weather Dashboard</div>
               <div className="capSmall">
                 Server-Side APIs, Javascript, HTML, CSS
