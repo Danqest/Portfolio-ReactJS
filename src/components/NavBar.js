@@ -71,7 +71,7 @@ function NavBar({ currentPage, handlePageChange }) {
           <li className="nav-item">
             <a
               // href="#resume"
-              href="./assets/documents/resume-cbrooks.pdf"
+              href="./assets/documents/2022-resume-cbrooks.pdf"
               download="resume-cbrooks"
               target="_blank"
               // onClick={() => handlePageChange("Resume")}
