@@ -55,7 +55,8 @@ function NavBar({ currentPage, handlePageChange }) {
               Portfolio
             </a>
           </li>
-          <li className="nav-item">
+          {/* commented out the Contact page for future development of an email server */}
+          {/* <li className="nav-item">
             <a
               href="#contact"
               onClick={() => handlePageChange("Contact")}
@@ -66,7 +67,7 @@ function NavBar({ currentPage, handlePageChange }) {
             >
               Contact
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a
               // href="#resume"
