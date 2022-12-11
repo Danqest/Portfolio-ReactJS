@@ -11,7 +11,7 @@ export class Home extends Component {
   render() {
     return (
       <div>
-        <div style={c1Style}>
+        <div className="main-container" style={c1Style}>
           <h1>FEATURED PROJECTS</h1>
           <div className="wrap-desktop">
             <div className="wrap-desktop-item">
