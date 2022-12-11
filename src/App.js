@@ -10,7 +10,7 @@ import Intro from "./components/Intro";
 import Footer from "./components/Footer";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Projects from "./components/pages/Projects";
+import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 
 function App() {
@@ -31,8 +31,8 @@ function App() {
     if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === "Projects") {
-      return <Projects />;
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
     }
     if (currentPage === "Contact") {
       return <Contact />;
